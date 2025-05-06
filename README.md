@@ -16,11 +16,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 mkdocs serve
 ```
-To deploy changes, commit locally then run:
+To deploy changes, commit and push onto main then run:
 
 ```bash
 mkdocs gh-deploy
 ```
 
 This will automatically rebuild the site. 
+
+
 
