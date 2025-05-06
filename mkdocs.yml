@@ -26,12 +26,8 @@ nav:
   - Home: 'index.md'
   - Documentation:
       - 'Introduction': 'documentation/index.md'
-      - 'Backend': 'portal/search.md'
-      - 'Frontend': 'portal/recordpage.md'
-      - 'Suggestions': 'portal/suggestions.md'
   - Blog:
       - 'Introduction': 'blog/index.md'
-      - 'Blog Post 1': 'blog/something.md'
 extra_javascript:
   - js/logo.js
 extra_css:
