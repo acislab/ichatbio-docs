@@ -1,0 +1,41 @@
+site_name: iChatBio
+site_author: Manuel Luciano
+site_description: iDigBio User Documentation
+theme:
+  features:
+    - navigation.tabs
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    - scheme: default
+      primary: custom
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: 'index.md'
+  - Documentation:
+      - 'Introduction': 'documentation/index.md'
+      - 'Backend': 'portal/search.md'
+      - 'Frontend': 'portal/recordpage.md'
+      - 'Suggestions': 'portal/suggestions.md'
+  - Blog:
+      - 'Introduction': 'blog/index.md'
+      - 'Blog Post 1': 'blog/something.md'
+extra_javascript:
+  - js/logo.js
+extra_css:
+  - css/custom.css
+markdown_extensions:
+  - admonition
+  - pymdownx.details
